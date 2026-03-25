@@ -80,3 +80,4 @@ Workflow file:
 - The current experience line was written from public profile context and can be refined at any time.
 - The JavaScript is intentionally minimal and only powers section reveal motion.
 - This site is easy to extend later with a resume link, writing section, custom domain, or more detailed project pages.
+- GitHub Pages deployment was configured to use GitHub Actions for publishing.
