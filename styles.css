@@ -210,6 +210,41 @@ h2 {
   gap: 14px;
 }
 
+.experience-list {
+  display: grid;
+  gap: 0;
+}
+
+.experience-item {
+  padding: 18px 0;
+  border-top: 1px solid var(--line);
+}
+
+.experience-item:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.experience-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.experience-head h3 {
+  font-size: 1.05rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.experience-head span {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .project-card {
   display: grid;
   gap: 14px;
@@ -297,6 +332,12 @@ h2 {
     gap: 12px;
     flex-wrap: wrap;
     justify-content: flex-end;
+  }
+
+  .experience-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
   }
 
   h1 {
